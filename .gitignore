@@ -1,0 +1,27 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Ignore model and data files
+*.pkl
+*.csv
+*.docx
+*.pdf
+*.pptx
+
+# Ignore Streamlit and other logs
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Python virtual environment
+.venv/
+pyvenv.cfg
